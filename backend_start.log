@@ -1,0 +1,26 @@
+
+> billora-api@1.0.0 start
+> node server.js
+
+Billora API listening on port 5001
+MongoDB connected
+[OTP] 9876543210 -> 933703 (expires in 5 min)
+[0mPOST /api/auth/send-otp [32m200[0m 246.662 ms - 81[0m
+[OTP] 6261439001 -> 421258 (expires in 5 min)
+[0mPOST /api/auth/send-otp [32m200[0m 233.030 ms - 81[0m
+[0mPOST /api/auth/verify-otp [33m400[0m 221.937 ms - 236[0m
+[OTP] 6261439001 -> 557009 (expires in 5 min)
+[0mPOST /api/auth/send-otp [32m200[0m 169.410 ms - 81[0m
+[0mPOST /api/auth/verify-otp [32m200[0m 448.786 ms - 204[0m
+[0mGET /api/business [32m200[0m 191.020 ms - 407[0m
+[0mGET /api/business [36m304[0m 189.397 ms - -[0m
+[0mPUT /api/business [32m200[0m 577.640 ms - 407[0m
+[0mGET /api/vendors [36m304[0m 160.013 ms - -[0m
+[0mGET /api/vendors [36m304[0m 141.932 ms - -[0m
+[0mPOST /api/vendors [32m201[0m 255.007 ms - 303[0m
+[0mPUT /api/vendors/6a53326dd08a88b98e613037 [32m200[0m 248.684 ms - 303[0m
+[0mGET /api/customers [36m304[0m 226.652 ms - -[0m
+[0mGET /api/customers [36m304[0m 184.066 ms - -[0m
+[0mGET /api/products [36m304[0m 176.572 ms - -[0m
+[0mGET /api/products [36m304[0m 281.906 ms - -[0m
+[0mPOST /api/products [32m201[0m 204.141 ms - 237[0m
